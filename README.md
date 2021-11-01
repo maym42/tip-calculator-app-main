@@ -1,6 +1,6 @@
 # Frontend Mentor - Tip calculator app
 
-![Preview site](https://maym42.github.io/tip-calculator-app-main/)
+[Preview site](https://maym42.github.io/tip-calculator-app-main/)
 
 ![Design preview for the Tip calculator app coding challenge](./design/desktop-preview.jpg)
 
