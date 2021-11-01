@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Frontend Mentor | Tip calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo"></div>
+    <div class="contianer">
+        <div class="contianer-calculator">
+            <label class="tag tag-bill"><span>Bill</span><span id="warning-bill"></span></label>
+            <input class="input-number" id="input-bill" type="number" min="0" placeholder="0">
+
+            <h4 class=tag> Select Tip %</h4>
+            <ul class="list-percentage">
+                <li class="btn-precent">5%</li>
+                <li class="btn-precent"> 10%</li>
+                <li class="btn-precent"> 15%</li>
+                <li class="btn-precent"> 25%</li>
+                <li class="btn-precent"> 50%</li>
+                <li> <input class="input-number" id="input-precent" type="number" min="0" placeholder="Custom"> </li>
+            </ul>
+
+
+            <label class="tag tag-people"> <span>Number of People</span> <span id="warning-people"></span> </label>
+            <input class="input-number" id="input-people" type="number" min="0" placeholder="0">
+        </div>
+
+        <div class="tip-result">
+            <div class="group-result">
+                <p>
+                    <span class="result-tag">Tip Amount</span>
+                    <span>/ person</span>
+                </p>
+                <p class="money" id="tip-Amount">$0.00</p>
+            </div>
+            <div class="group-result">
+                <p>
+                    <span class="result-tag">Total</span>
+                    <span>/ person</span>
+                </p>
+                <p class="money" id="price-person">$0.00</p>
+            </div>
+            <div class="btn-reset" id="reset">Reset</div>
+        </div>
+    </div>
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/maym42" target="_blank">Maayan</a>.
+    </div>
+    <script src="scripts/tipScript.js"></script>
+
+</body>
+
+</html>
